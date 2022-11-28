@@ -13,7 +13,6 @@ eureka:
 
 spring:
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3606/auth-microservice
     username: root
     password: 
