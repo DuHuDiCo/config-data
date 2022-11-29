@@ -2,6 +2,7 @@ server:
   port: 8761
   waitTimeInMsWhenSyncEmpty: 0 
 eureka:
+  instance: 192.168.1.34
   client:
     fetch-registry: false
     register-with-eureka: false
