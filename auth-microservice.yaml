@@ -4,7 +4,7 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true  
-    eureka-server-u-r-l-context: http://192.169.1.171/eureka-microservice/eureka
+    eureka-server-u-r-l-context: http://192.169.1.171/eureka-microservice
   instance:
     hostname: localhost  
 
