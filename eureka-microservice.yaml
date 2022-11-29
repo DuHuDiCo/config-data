@@ -1,5 +1,11 @@
+server:
+  port: 80
 eureka:
+  instance:
+    hostname: 192.168.1.171
   client:
     fetch-registry: false
     register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka-microservice/eureka/
     
