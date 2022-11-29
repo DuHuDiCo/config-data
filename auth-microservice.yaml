@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/auth-microservice
     username: root
-    password: 
+    password: admin
   jpa:
     properties:
       hibernate:
