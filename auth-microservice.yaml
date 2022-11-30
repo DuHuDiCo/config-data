@@ -8,6 +8,9 @@ eureka:
   instance:
     hostname: localhost
 
+jwt:
+  secret: N0JANTJna2VtVipA
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/auth-microservice
