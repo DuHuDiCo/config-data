@@ -17,11 +17,7 @@ spring:
       routes:
         - id: auth-microservice
           uri: lb://auth-microservice
-          predicates[0]:
+          predicates:
             - Path=/generate-token
-          predicates[1]:
-            - Path=/api/v1/users/**
-          predicates[2]:
-            - Path=/roles/**
-          filters[0]: AuthFilter  
+          filters: AuthFilter  
               
