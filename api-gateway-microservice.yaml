@@ -23,5 +23,6 @@ spring:
           uri: lb://user-microservice
           predicates:
             - Path=/api/v1/users/**
-          
+          filters: AuthFilter
+
               
