@@ -9,5 +9,5 @@ eureka:
     hostname: localhost
 
 jwt:
-  secret: N0JANTJna2VtVipA
+  secret: electrohogar
 
