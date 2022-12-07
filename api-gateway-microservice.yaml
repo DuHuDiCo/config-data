@@ -18,6 +18,10 @@ spring:
         - id: auth-microservice
           uri: lb://auth-microservice
           predicates:
-            - Path=/generate-token
-          filters: AuthFilter  
+            - Path=/**
+        - id: user-microservice
+          uri: lb://user-microservice
+          predicates:
+            - Path=/api/v1/users/**
+          
               
